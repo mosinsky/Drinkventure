@@ -17,7 +17,7 @@ class UpdateDrinkRequest extends FormRequest
             'name'                  => 'required|max:255',
             'image_url'             => 'required|max:516',
             'description'           => 'required|max:2056',
-            'sugar_grams_per_100ml' => 'required',
+            'alcohol_content'       => 'required',
         ];
     }
 }

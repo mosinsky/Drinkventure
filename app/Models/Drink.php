@@ -16,6 +16,6 @@ class Drink extends Model
         'name',
         'image_url',
         'description',
-        'sugar_grams_per_100ml',
+        'alcohol_content',
     ];
 }

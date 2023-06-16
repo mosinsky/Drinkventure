@@ -27,23 +27,23 @@
                               required/>
                 <x-input-error :messages="$errors->get('description')" class="mt-2"/>
 
-                <x-input-label class="mt-4 font-semibold" for="sugar_grams_per_100ml" :value="__('Sugar grams per 100ml')"/>
-                <x-text-input id="sugar_grams_per_100ml" class="block mt-1 w-full"
-                              type="number"
-                              name="sugar_grams_per_100ml"
-                              value="{{ $drink->sugar_grams_per_100ml }}"
-                              min="0"
-                              max="100"
-                              required/>
-                <x-input-error :messages="$errors->get('sugar_grams_per_100ml')" class="mt-2"/> 
-
                 <x-input-label class="mt-4 font-semibold" for="image_url" :value="__('Image URL')"/>
-                <x-text-input id="<x-text-input" class="block mt-1 w-full"
+                <x-text-input id="image_url" class="block mt-1 w-full"
                               type="text"
                               name="image_url"
                               value="{{ $drink->image_url }}"
                               required/>
                 <x-input-error :messages="$errors->get('image_url')" class="mt-2"/>
+
+                <x-input-label class="mt-4 font-semibold" for="alcohol_content" :value="__('alcohol_content (%)')"/>
+                <x-text-input id="alcohol_content" class="block mt-1 w-full"
+                              type="number"
+                              name="alcohol_content"
+                              value="{{ $drink->alcohol_content }}"
+                              min="0"
+                              max="100"
+                              required/>
+                <x-input-error :messages="$errors->get('alcohol_content')" class="mt-2"/>
 
                 <!-- <figure>
             <a href="{{ $drink->image_url }}">

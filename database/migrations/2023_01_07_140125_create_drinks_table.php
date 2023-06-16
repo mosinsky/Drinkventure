@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('name');                     // VARCHAR
             $table->string('image_url', 516);    // VARCHAR(516)
             $table->longText('description');            // TEXT
-            $table->decimal('sugar_grams_per_100ml');   // 0.12
+            $table->decimal('alcohol_content');   // 0.12
             $table->timestamps();                               // created_at, updated_at
         });
     }

@@ -17,8 +17,8 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
 
         $user = \App\Models\User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+            'name' => 'User',
+            'email' => 'user@example.com',
          ]);
 
         $token = $user->createToken('api_token')->plainTextToken;
@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
         $user->update(['api_token' => $token]);
 
          $user = \App\Models\User::factory()->create([
-             'name' => 'Admin User',
+             'name' => 'Admin',
              'email' => 'admin@example.com',
              'is_admin' => true,
          ]);

@@ -11,7 +11,7 @@
             <p class="text-current mb-5 dark:text-gray-400">{{ $drink->description }}</p>
             <div>
                 <ul>
-                    <li class="dark:text-white"><strong >Ilość cukru na 100ml (g):</strong> {{ $drink->sugar_grams_per_100ml }}</li>
+                    <li class="dark:text-white"><strong >alcohol content (%):</strong> {{ $drink->alcohol_content }}</li>
                 </ul>
             </div>
             <hr>

@@ -16,34 +16,34 @@ class DrinkSeeder extends Seeder
     {
         $drinksData = [
             [
-                'name' => 'Coca-Cola',
-                'description' => 'Coca-Cola, or Coke, is a carbonated soft drink manufactured by the Coca-Cola Company. Originally marketed as a temperance drink and intended as a patent medicine, it was invented in the late 19th century by John Stith Pemberton in Atlanta, Georgia. In 1888, Pemberton sold Coca-Cola`s ownership rights to Asa Griggs Candler, a businessman, whose marketing tactics led Coca-Cola to its dominance of the global soft-drink market throughout the 20th and 21st century.[1] The drink`s name refers to two of its original ingredients: coca leaves and kola nuts (a source of caffeine). The current formula of Coca-Cola remains a closely guarded trade secret; however, a variety of reported recipes and experimental recreations have been published. The secrecy around the formula has been used by Coca-Cola in its marketing as only a handful of anonymous employees know the formula.[2] The drink has inspired imitators and created a whole classification of soft drink: colas.',
-                'sugar_grams_per_100ml' => 10.3,
-                'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/b/b0/Coca-Cola_Cherry_Poland.png'
+                'name' => 'Whisky',
+                'description' => 'Whisky or whiskey is a type of liquor made from fermented grain mash. Various grains (which may be malted) are used for different varieties, including barley, corn, rye, and wheat. Whisky is typically aged in wooden casks, which are typically made of charred white oak. Uncharred white oak casks previously used for the aging of port, rum or sherry are also sometimes used. Whisky is a strictly regulated spirit worldwide with many classes and types. The typical unifying characteristics of the different classes and types are the fermentation of grains, distillation, and aging in wooden barrels',
+                'alcohol_content' => 40,
+                'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Scotch_Whisky_%28aka%29.jpg'
             ],
             [
-                'name' => 'Fanta',
-                'description' => 'Fanta is an American-owned German brand of fruit-flavored carbonated soft drinks created by Coca-Cola Deutschland under the leadership of German businessman Max Keith. There are more than 200 flavors worldwide. Fanta originated in Germany as a Coca-Cola alternative in 1940 due to the American trade embargo of Nazi Germany, which affected the availability of Coca-Cola ingredients. Fanta soon dominated the German market with three million cans sold in 1943. The current formulation of Fanta was developed in Italy in 1955.',
-                'sugar_grams_per_100ml' => 4.6,
-                'image_url' => 'https://hurtownia-napoje.pl/environment/cache/images/0_0_productGfx_2718/Fanta-Pomaranczowa-250ml-karton.jpg'
+                'name' => 'Brandy',
+                'description' => 'Brandy is a liquor produced by distilling wine. Brandy generally contains 35–60% alcohol by volume (70–120 US proof) and is typically consumed as an after-dinner digestif. Some brandies are aged in wooden casks. Others are coloured with caramel colouring to imitate the effect of ageing, and some are produced using a combination of ageing and colouring. Varieties of wine brandy can be found across the winemaking world. Among the most renowned are Cognac and Armagnac from south-western France. In a broader sense, the term brandy also denotes liquors obtained from the distillation of pomace (yielding pomace brandy), or mash or wine of any other fruit (fruit brandy).[3][1] These products are also called eau de vie (which translates to "water of life").',
+                'alcohol_content' => 40,
+                'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/7/7f/Cicero-Brandy-250ml-stacked-900-by-1100.jpg'
             ],
             [
-                'name' => 'Sprite',
-                'description' => 'Sprite (ang. sprite – „duszek, chochlik”[1]) – marka napoju gazowanego o smaku cytrynowo-limonkowym należąca do The Coca-Cola Company. Napój Sprite został wprowadzony na rynek w USA w 1961 roku, w Polsce od 1991 roku. Jest to odpowiedź firmy na popularny napój 7 Up firmy Pepsi. Dostępne na światowym rynku rodzaje napoju to: Sprite Zero (dietetyczny), Mint flavored Sprite (z nutą mięty), Sprite Blue (w kolorze niebieskim), Sprite 3G (napój typu energy drink), Sprite Remix (różne wariacje z aromatami owocowymi), Sprite Remix Berry Clear (owoce leśne), Sprite Remix Baja (owoce tropikalne), Sprite Remix Aruba Jam, Ice Sprite (orzeźwiający miętowy smak), Sprite Cucumber (ogórkowy).',
-                'sugar_grams_per_100ml' => 8.6,
-                'image_url' => 'https://i.iplsc.com/zdjecie-ilustracyjne/000FUW73R5DF5CEV-C116-F4.webp'
+                'name' => 'Vodka',
+                'description' => "Vodka (Polish: wódka [ˈvutka], Russian: водка [ˈvotkə], Swedish: vodka [vɔdkɑː]) is a clear distilled alcoholic beverage. Different varieties originated in Poland, Russia, and Sweden. Vodka is composed mainly of water and ethanol but sometimes with traces of impurities and flavourings. Traditionally, it is made by distilling liquid from fermented cereal grains, and potatoes since introduced in Europe in the 1700's. Some modern brands use corn, sugar cane, fruits, honey, and maple sap as the base. Since the 1890s, standard vodkas have been 40% alcohol by volume (ABV) (80 U.S. proof). The European Union has established a minimum alcohol content of 37.5% for vodka. Vodka in the United States must have a minimum alcohol content of 40%. Vodka is traditionally drunk neat (not mixed with water, ice, or other mixers), and it is often served freezer chilled in the vodka belt of Belarus, Estonia, Finland, Iceland, Latvia, Lithuania, Norway, Poland, Russia, Sweden, and Ukraine. It is also used in cocktails and mixed drinks, such as the vodka martini, Cosmopolitan, vodka tonic, screwdriver, greyhound, Black or White Russian, Moscow mule, Bloody Mary, and Caesar.",
+                'alcohol_content' => 38,
+                'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Monopolowa_Baczewski.JPG'
             ],
             [
-                'name' => 'Solo',
-                'description' => 'Solo is an orange-flavoured soft drink, owned by the Norwegian companies Ringnes, Oskar Sylte, and Mack.[1] The recipe was originally Spanish, and brought to the CEO of Tønsberg Bryggeri, Theodor W. Holmsen, by Torleif Gulliksrud in 1934. Solo quickly became Norway`s most popular soft drink, and until the 1960s was bigger than Coca-Cola in Norway.[2][3] In 1999, Pepsi passed Solo in market share, leaving Solo as third most popular.',
-                'sugar_grams_per_100ml' => 11.5,
-                'image_url' => 'https://thornews.files.wordpress.com/2012/03/solo-gjennom-c3a5rene.jpg'
+                'name' => 'Wine',
+                'description' => "Wine is an alcoholic drink typically made from fermented grapes. Yeast consumes the sugar in the grapes and converts it to ethanol and carbon dioxide, releasing heat in the process. Different varieties of grapes and strains of yeasts are major factors in different styles of wine. These differences result from the complex interactions between the biochemical development of the grape, the reactions involved in fermentation, the grape's growing environment (terroir), and the wine production process. Many countries enact legal appellations intended to define styles and qualities of wine. These typically restrict the geographical origin and permitted varieties of grapes, as well as other aspects of wine production. Wines can be made by fermentation of other fruit crops such as plum, cherry, pomegranate, blueberry, currant and elderberry.",
+                'alcohol_content' => 9,
+                'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/8/88/Glass_of_Red_Wine_with_a_bottle_of_Red_Wine_-_Evan_Swigart.jpg'
             ],
             [
-                'name' => 'Bundaberg: Ginger Beer',
-                'description' => 'Bundaberg Brewed Drinks Pty Ltd is an Australian family-owned business that brews non-alcoholic beverages. Based in Bundaberg, Queensland, they export to over 61 countries across the globe and they are most known for their ginger beer and other carbonated beverages.',
-                'sugar_grams_per_100ml' => 10.8,
-                'image_url' => 'https://i.ebayimg.com/images/g/vwQAAOSwDNdVzfGn/s-l1600.jpg'
+                'name' => 'Beer',
+                'description' => 'Beer is one of the oldest types of alcoholic drinks in the world, and the most widely consumed. It is the third most popular drink overall after potable water and tea. It is produced by the brewing and fermentation of starches, mainly derived from cereal grains—most commonly malted barley, though wheat, maize (corn), rice, and oats are also used. During the brewing process, fermentation of the starch sugars in the wort produces ethanol and carbonation in the resulting beer. Most modern beer is brewed with hops, which add bitterness and other flavours and act as a natural preservative and stabilising agent. Other flavouring agents such as gruit, herbs, or fruits may be included or used instead of hops. In commercial brewing, the natural carbonation effect is often removed during processing and replaced with forced carbonation.',
+                'alcohol_content' => 5,
+                'image_url' => 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Bro_Code_Beer_01.jpg'
             ],
         ];
 

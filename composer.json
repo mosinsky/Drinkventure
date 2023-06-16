@@ -1,5 +1,5 @@
 {
-    "name": "mosmich2001/laravel-fizzy-drinks",
+    "name": "mosmich2001/laravel-drink-adventure",
     "type": "project",
     "description": "",
     "keywords": [
@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php":"^8.2.6",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
